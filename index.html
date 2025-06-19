@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+    <style>
+      @import url("https://use.typekit.net/lal0buc.css");
+    </style>
+    <script src="https://kit.fontawesome.com/7054f5590e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Dans ton Décor</title>
+  </head>
+
+
+  <body>
+    <!-- Text bar on top -->
+    <div class="top-bar text-white text-center py-3">
+      Planifiez votre consultation dès aujourd'hui
+    </div>
+    <nav class="navbar navbar-expand-lg bg-body">
+      <div class="container-fluid">
+        <!-- Logo on the left -->
+        <a class="navbar-brand" href="#">
+          <img
+            src="./images/dans_ton_decor_logo.png"
+            alt="Dans ton Décor Logo"
+            height="80"
+          />
+        </a>
+
+        <!-- Mobile menu button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Nav items aligned to the right -->
+        <div
+          class="collapse navbar-collapse custom-collapse"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#a_propos"
+                >À propos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio1">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Section: Three Images -->
+     <section id="three-images">
+    <div class="container-fluid image-container mt-4">
+      <div class="row g-3">
+        <div class="col-12 col-md-4">
+          <img src="./images/3.png" alt="Image 1" class="img-fluid" />
+        </div>
+        <div class="col-12 col-md-4">
+          <img src="./images/18.png" alt="Image 2" class="img-fluid" />
+        </div>
+        <div class="col-12 col-md-4">
+          <img src="./images/c3.png" alt="Image 3" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- end of image-container -->
+
+    <!-- Section: Hero Banner -->
+     <section id="a_propos">
+    <div class="pourquoi px-4 py-5 my-5 text-center">
+      <!-- Text section below image -->
+      <h1 class="display-5 fw-bold">DANS TON DÉCOR</h1>
+      <h3>SERVICE DE DÉCORATION VIRTUEL</h3>
+      <h2>POURQUOI?</h2>
+      <div class="col-lg-10 mx-auto">
+        <p class="lead mb-4">
+          Notre service de décoration en ligne vous offre une solution clé en
+          main, accessible partout, où que vous soyez. Grâce à une plateforme
+          intuitive et une designer à votre écoute, nous garantissons une
+          qualité de prestation irréprochable, avec des propositions
+          personnalisées ettendances. Disponible en tout temps, notre service
+          s'adapte à votre emploi du temps et à vos besoins, pout transormer vos
+          espaces sans stress, sans déplacements, et avec un accompagnement
+          complet du début à la fin.
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+    <section class="etapes" id="service">
+    <div class="container px-4 py-5" id="featured-3">
+      <h2 class="display-5 fw-bold text-center">Votre design en 3 étapes faciles</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="feature col">
+          <div
+            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+          >
+          </div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-1-circle" viewBox="0 0 16 16">
+            <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M9.283 4.002V12H7.971V5.338h-.065L6.072 6.656V5.385l1.899-1.383z"/>
+          </svg>
+          <p class="etapes-text">
+            Choissisez votre forfait et votre pièce.
+          </p>
+        </div>
+        <div class="feature col">
+          <div
+            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+          >
+          </div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-2-circle" viewBox="0 0 16 16">
+            <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.646 6.24v.07H5.375v-.064c0-1.213.879-2.402 2.637-2.402 1.582 0 2.613.949 2.613 2.215 0 1.002-.6 1.667-1.287 2.43l-.096.107-1.974 2.22v.077h3.498V12H5.422v-.832l2.97-3.293c.434-.475.903-1.008.903-1.705 0-.744-.557-1.236-1.313-1.236-.843 0-1.336.615-1.336 1.306"/>
+          </svg>
+          <p class="etapes-text">
+            Remplissez le questionnaire et envoyez des photos de votre pièce.
+          </p>
+        </div>
+        <div class="feature col">
+          <div
+            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+          >
+          </div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-3-circle" viewBox="0 0 16 16">
+            <path d="M7.918 8.414h-.879V7.342h.838c.78 0 1.348-.522 1.342-1.237 0-.709-.563-1.195-1.348-1.195-.79 0-1.312.498-1.348 1.055H5.275c.036-1.137.95-2.115 2.625-2.121 1.594-.012 2.608.885 2.637 2.062.023 1.137-.885 1.776-1.482 1.875v.07c.703.07 1.71.64 1.734 1.917.024 1.459-1.277 2.396-2.93 2.396-1.705 0-2.707-.967-2.754-2.144H6.33c.059.597.68 1.06 1.541 1.066.973.006 1.6-.563 1.588-1.354-.006-.779-.621-1.318-1.541-1.318"/>
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8"/>
+          </svg>
+          <p class="etapes-text">
+            Recevez un moodboard, des plans 3D et une list d'achat.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Les Pieces start-->
+<section class="py-xl-9 py-5 pieces">
+  <div class="container">
+     <div class="row">
+        <div class="col-lg-8 offset-lg-2 col-12">
+           <div class="text-center mb-xl-7 mb-5">
+              <h2 class="piece-title display-5 fw-bold">LES PIÈCES</h2>
+           </div>
+        </div>
+     </div>
+     <div class="row g-4">
+        <div class="col-lg-2 col-md-4 col-6">
+           <div class="text-center p-4">
+              <span class="mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" height="56" width="60" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M240 144A96 96 0 1 0 48 144a96 96 0 1 0 192 0zm44.4 32C269.9 240.1 212.5 288 144 288C64.5 288 0 223.5 0 144S64.5 0 144 0c68.5 0 125.9 47.9 140.4 112l71.8 0c8.8-9.8 21.6-16 35.8-16l104 0c26.5 0 48 21.5 48 48s-21.5 48-48 48l-104 0c-14.2 0-27-6.2-35.8-16l-71.8 0zM144 80a64 64 0 1 1 0 128 64 64 0 1 1 0-128zM400 240c13.3 0 24 10.7 24 24l0 8 96 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-240 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l96 0 0-8c0-13.3 10.7-24 24-24zM288 464l0-112 224 0 0 112c0 26.5-21.5 48-48 48l-128 0c-26.5 0-48-21.5-48-48zM48 320l80 0 16 0 32 0c26.5 0 48 21.5 48 48s-21.5 48-48 48l-16 0c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-80c0-8.8 7.2-16 16-16zm128 64c8.8 0 16-7.2 16-16s-7.2-16-16-16l-16 0 0 32 16 0zM24 464l176 0c13.3 0 24 10.7 24 24s-10.7 24-24 24L24 512c-13.3 0-24-10.7-24-24s10.7-24 24-24z"/></svg>              </span>
+              <h4 class="mt-3 card-text fs-5">Cuisine</h4>
+              </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6">
+          <div class="text-center p-4">
+             <span class="mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" height="56" width="60" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M416 0C400 0 288 32 288 176l0 112c0 35.3 28.7 64 64 64l32 0 0 128c0 17.7 14.3 32 32 32s32-14.3 32-32l0-128 0-112 0-208c0-17.7-14.3-32-32-32zM64 16C64 7.8 57.9 1 49.7 .1S34.2 4.6 32.4 12.5L2.1 148.8C.7 155.1 0 161.5 0 167.9c0 45.9 35.1 83.6 80 87.7L80 480c0 17.7 14.3 32 32 32s32-14.3 32-32l0-224.4c44.9-4.1 80-41.8 80-87.7c0-6.4-.7-12.8-2.1-19.1L191.6 12.5c-1.8-8-9.3-13.3-17.4-12.4S160 7.8 160 16l0 134.2c0 5.4-4.4 9.8-9.8 9.8c-5.1 0-9.3-3.9-9.8-9L127.9 14.6C127.2 6.3 120.3 0 112 0s-15.2 6.3-15.9 14.6L83.7 151c-.5 5.1-4.7 9-9.8 9c-5.4 0-9.8-4.4-9.8-9.8L64 16zm48.3 152l-.3 0-.3 0 .3-.7 .3 .7z"/></svg>
+             <h4 class="mt-3 card-text fs-5">Salle à manger</h4>
+             </div>
+       </div>
+       <div class="col-lg-2 col-md-4 col-6">
+        <div class="text-center p-4">
+           <span class="mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" height="56" width="60" viewBox="0 0 640 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M64 160C64 89.3 121.3 32 192 32l256 0c70.7 0 128 57.3 128 128l0 33.6c-36.5 7.4-64 39.7-64 78.4l0 48-384 0 0-48c0-38.7-27.5-71-64-78.4L64 160zM544 272c0-20.9 13.4-38.7 32-45.3c5-1.8 10.4-2.7 16-2.7c26.5 0 48 21.5 48 48l0 176c0 17.7-14.3 32-32 32l-32 0c-17.7 0-32-14.3-32-32L96 448c0 17.7-14.3 32-32 32l-32 0c-17.7 0-32-14.3-32-32L0 272c0-26.5 21.5-48 48-48c5.6 0 11 1 16 2.7c18.6 6.6 32 24.4 32 45.3l0 48 0 32 32 0 384 0 32 0 0-32 0-48z"/></svg>
+           <h4 class="mt-3 card-text fs-5">Salon</h4>
+           </div>
+     </div>
+     <div class="col-lg-2 col-md-4 col-6">
+      <div class="text-center p-4">
+         <span class="mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg" height="56" width="60" viewBox="0 0 640 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M32 32c17.7 0 32 14.3 32 32l0 256 224 0 0-160c0-17.7 14.3-32 32-32l224 0c53 0 96 43 96 96l0 224c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-32-224 0-32 0L64 416l0 32c0 17.7-14.3 32-32 32s-32-14.3-32-32L0 64C0 46.3 14.3 32 32 32zm144 96a80 80 0 1 1 0 160 80 80 0 1 1 0-160z"/></svg>
+          <h4 class="mt-3 card-text fs-5">Chambre à coucher</h4>
+         </div>
+   </div>
+   <div class="col-lg-2 col-md-4 col-6">
+    <div class="text-center p-4">
+       <span class="mb-4">
+        <svg xmlns="http://www.w3.org/2000/svg" height="56" width="56" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M96 77.3c0-7.3 5.9-13.3 13.3-13.3c3.5 0 6.9 1.4 9.4 3.9l14.9 14.9C130 91.8 128 101.7 128 112c0 19.9 7.2 38 19.2 52c-5.3 9.2-4 21.1 3.8 29c9.4 9.4 24.6 9.4 33.9 0L289 89c9.4-9.4 9.4-24.6 0-33.9c-7.9-7.9-19.8-9.1-29-3.8C246 39.2 227.9 32 208 32c-10.3 0-20.2 2-29.2 5.5L163.9 22.6C149.4 8.1 129.7 0 109.3 0C66.6 0 32 34.6 32 77.3L32 256c-17.7 0-32 14.3-32 32s14.3 32 32 32l448 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L96 256 96 77.3zM32 352l0 16c0 28.4 12.4 54 32 71.6L64 480c0 17.7 14.3 32 32 32s32-14.3 32-32l0-16 256 0 0 16c0 17.7 14.3 32 32 32s32-14.3 32-32l0-40.4c19.6-17.6 32-43.1 32-71.6l0-16L32 352z"/></svg>
+        <h4 class="mt-3 card-text fs-5">Salle de bain</h4>
+       </div>
+ </div>
+ <div class="col-lg-2 col-md-4 col-6">
+  <div class="text-center p-4">
+     <span class="mb-4">
+      <svg xmlns="http://www.w3.org/2000/svg" height="56" width="60" viewBox="0 0 640 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M211.8 0c7.8 0 14.3 5.7 16.7 13.2C240.8 51.9 277.1 80 320 80s79.2-28.1 91.5-66.8C413.9 5.7 420.4 0 428.2 0l12.6 0c22.5 0 44.2 7.9 61.5 22.3L628.5 127.4c6.6 5.5 10.7 13.5 11.4 22.1s-2.1 17.1-7.8 23.6l-56 64c-11.4 13.1-31.2 14.6-44.6 3.5L480 197.7 480 448c0 35.3-28.7 64-64 64l-192 0c-35.3 0-64-28.7-64-64l0-250.3-51.5 42.9c-13.3 11.1-33.1 9.6-44.6-3.5l-56-64c-5.7-6.5-8.5-15-7.8-23.6s4.8-16.6 11.4-22.1L137.7 22.3C155 7.9 176.7 0 199.2 0l12.6 0z"/></svg>
+      <h4 class="mt-3 card-text fs-5">Buanderie</h4>
+     </div>
+</div>
+     </div>
+     <div class="row g-4 mt-2">
+      <div class="col-lg-2 col-md-4 col-6">
+         <div class="text-center p-4">
+            <span class="mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" height="56" width="60" viewBox="0 0 640 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M384 96l0 224L64 320 64 96l320 0zM64 32C28.7 32 0 60.7 0 96L0 320c0 35.3 28.7 64 64 64l117.3 0-10.7 32L96 416c-17.7 0-32 14.3-32 32s14.3 32 32 32l256 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-74.7 0-10.7-32L384 384c35.3 0 64-28.7 64-64l0-224c0-35.3-28.7-64-64-64L64 32zm464 0c-26.5 0-48 21.5-48 48l0 352c0 26.5 21.5 48 48 48l64 0c26.5 0 48-21.5 48-48l0-352c0-26.5-21.5-48-48-48l-64 0zm16 64l32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm-16 80c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16zm32 160a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg>
+              <h4 class="mt-3 card-text fs-5">Bureau</h4>
+            </div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-6">
+        <div class="text-center p-4">
+           <span class="mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" height="56" width="60" viewBox="0 0 640 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M416 0C352.3 0 256 32 256 32l0 128c48 0 76 16 104 32s56 32 104 32c56.4 0 176-16 176-96S512 0 416 0zM128 96c0 35.3 28.7 64 64 64l32 0 0-128-32 0c-35.3 0-64 28.7-64 64zM288 512c96 0 224-48 224-128s-119.6-96-176-96c-48 0-76 16-104 32s-56 32-104 32l0 128s96.3 32 160 32zM0 416c0 35.3 28.7 64 64 64l32 0 0-128-32 0c-35.3 0-64 28.7-64 64z"/></svg>
+            <h4 class="mt-3 card-text fs-5">Entrée Mudroom</h4>
+           </div>
+     </div>
+     <div class="col-lg-2 col-md-4 col-6">
+      <div class="text-center p-4">
+         <span class="mb-4">
+<svg xmlns="http://www.w3.org/2000/svg" height="50" width="50" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M416 288c-50.1 0-93.6 28.8-114.6 70.8L68.9 126.3l.6-.6 60.1-60.1c87.5-87.5 229.3-87.5 316.8 0c67.1 67.1 82.7 166.3 46.8 248.3C471.8 297.6 445 288 416 288zM49.3 151.9L290.1 392.7c-1.4 7.5-2.1 15.3-2.1 23.3c0 23.2 6.2 44.9 16.9 63.7c-3 .2-6.1 .3-9.2 .3l-2.7 0c-33.9 0-66.5-13.5-90.5-37.5l-9.8-9.8c-13.1-13.1-34.6-12.4-46.8 1.7L88.2 501c-5.8 6.7-14.2 10.7-23 11s-17.5-3.1-23.8-9.4l-32-32C3.1 464.3-.3 455.7 0 446.9s4.3-17.2 11-23l66.6-57.7c14-12.2 14.8-33.7 1.7-46.8l-9.8-9.8C45.5 285.5 32 252.9 32 219l0-2.7c0-22.8 6.1-44.9 17.3-64.3zM416 320a96 96 0 1 1 0 192 96 96 0 1 1 0-192z"/></svg>
+          <h4 class="mt-3 card-text fs-5">Sous-sol</h4>
+         </div>
+   </div>
+   <div class="col-lg-2 col-md-4 col-6">
+    <div class="text-center p-4">
+       <span class="mb-4">
+        <svg xmlns="http://www.w3.org/2000/svg" height="56" width="59" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M346.3 271.8l-60.1-21.9L214 448 32 448c-17.7 0-32 14.3-32 32s14.3 32 32 32l512 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-261.9 0 64.1-176.2zm121.1-.2l-3.3 9.1 67.7 24.6c18.1 6.6 38-4.2 39.6-23.4c6.5-78.5-23.9-155.5-80.8-208.5c2 8 3.2 16.3 3.4 24.8l.2 6c1.8 57-7.3 113.8-26.8 167.4zM462 99.1c-1.1-34.4-22.5-64.8-54.4-77.4c-.9-.4-1.9-.7-2.8-1.1c-33-11.7-69.8-2.4-93.1 23.8l-4 4.5C272.4 88.3 245 134.2 226.8 184l-3.3 9.1L434 269.7l3.3-9.1c18.1-49.8 26.6-102.5 24.9-155.5l-.2-6zM107.2 112.9c-11.1 15.7-2.8 36.8 15.3 43.4l71 25.8 3.3-9.1c19.5-53.6 49.1-103 87.1-145.5l4-4.5c6.2-6.9 13.1-13 20.5-18.2c-79.6 2.5-154.7 42.2-201.2 108z"/></svg>
+        <h4 class="mt-3 card-text fs-5">Terrasse extérieur</h4>
+       </div>
+ </div>
+ <div class="col-lg-2 col-md-4 col-6">
+  <div class="text-center p-4">
+     <span class="mb-4">
+      <svg xmlns="http://www.w3.org/2000/svg" height="56" width="60" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M320 32c0-9.9-4.5-19.2-12.3-25.2S289.8-1.4 280.2 1l-179.9 45C79 51.3 64 70.5 64 92.5L64 448l-32 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0 192 0 32 0 0-32 0-448zM256 256c0 17.7-10.7 32-24 32s-24-14.3-24-32s10.7-32 24-32s24 14.3 24 32zm96-128l96 0 0 352c0 17.7 14.3 32 32 32l64 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-32 0 0-320c0-35.3-28.7-64-64-64l-96 0 0 64z"/></svg>
+      <h4 class="mt-3 card-text fs-5">Rez de chaussé</h4>
+     </div>
+</div>
+<div class="col-lg-2 col-md-4 col-6">
+<div class="text-center p-4">
+   <span class="mb-4">
+    <svg xmlns="http://www.w3.org/2000/svg" height="56" width="60" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M575.8 255.5c0 18-15 32.1-32 32.1l-32 0 .7 160.2c.2 35.5-28.5 64.3-64 64.3l-320.4 0c-35.3 0-64-28.7-64-64l0-160.4-32 0c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L416 100.7 416 64c0-17.7 14.3-32 32-32l32 0c17.7 0 32 14.3 32 32l0 121 52.8 46.4c8 7 12 15 11 24zM248 192c-13.3 0-24 10.7-24 24l0 80c0 13.3 10.7 24 24 24l80 0c13.3 0 24-10.7 24-24l0-80c0-13.3-10.7-24-24-24l-80 0z"/></svg>
+    <h4 class="mt-3 card-text fs-5">Étage</h4>
+   </div>
+</div>
+   </div>
+  </div>
+</section>
+
+  <!--Forfaits start-->
+<section class="forfait" id="forfait">
+  <div>
+    <div class="container py-5">
+        <div class="row text-center mb-5">
+            <div class="col">
+                <h2 class="forfait-title display-5 fw-bold">Choisissez votre Forfait</h2>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 g-4">
+
+            <!-- Pro Plan -->
+            <div class="col">
+                <div class="card h-100 pricing-card shadow position-relative">
+                    <div class="card-body p-5">
+                        <h2 class="card-title text-uppercase mb-2">FORFAIT DÉCO</h5>
+                        <h6 class="subtitle mb-4">Aménagement - Décoration  - Visuel 3D</h3>
+                        <ul class="feature-list">
+                            <li><i class="bi bi-check2 text-primary"></i>Moodboard</li>
+                            <li><i class="bi bi-check2 text-primary"></i>Proposition de peinture</li>
+                            <li><i class="bi bi-check2 text-primary"></i>Liste de magasinage</li>
+                            <li><i class="bi bi-check2 text-primary"></i>Proposition de matériaux</li>
+                            <li><i class="bi bi-check2 text-primary"></i>Visuels 3D avec rendu réaliste</li>
+                            <li><i class="bi bi-check2 text-primary"></i>Possibilité de modification suite au 3D</li>
+                        </ul>
+                        <button id="goToPage" class="btn gradient-custom text-white btn-lg w-100">Sélectionner</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pro Plan -->
+            <div class="col">
+              <div class="card h-100 pricing-card shadow position-relative">
+                  <span class="badge gradient-custom text-white popular-badge px-4 py-2">Populaire</span>
+                  <div class="card-body p-5">
+                    <h2 class="card-title text-uppercase mb-2">FORFAIT RÉNO</h5>
+                      <h6 class="subtitle mb-4">Aménagement - Décoration  - Visuel 3D - Plans Techniques</h3>
+                      <ul class="feature-list mb-4">
+                        <li><i class="bi bi-check2 text-primary"></i>Moodboard</li>
+                        <li><i class="bi bi-check2 text-primary"></i>Proposition de peinture</li>
+                        <li><i class="bi bi-check2 text-primary"></i>Liste de magasinage</li>
+                        <li><i class="bi bi-check2 text-primary"></i>Proposition de matériaux</li>
+                        <li><i class="bi bi-check2 text-primary"></i>Visuels 3D avec rendu réaliste</li>
+                        <li><i class="bi bi-check2 text-primary"></i>Possibilité de modification suite au 3D</li>
+                        <li><i class="bi bi-check2 text-primary"></i>Plans Techniques</li>
+                      </ul>
+                      <button class="btn gradient-custom text-white btn-lg w-100">Sélectionner</button>
+                  </div>
+              </div>
+          </div>
+
+            <!-- Basic Plan -->
+            <div class="col">
+              <div class="card h-100 pricing-card shadow position-relative">
+                  <div class="card-body p-5">
+                    <h2 class="card-title text-uppercase mb-2">SERVICE EXTRA</h5>
+                      <h1 class="display-5 mb-4">100$</h1>
+                      <h6 class="subtitle mb-4">SANS CONSULTATION</h3>
+                      <ul class="list-unstyled feature-list">
+                        <li><i class="bi bi-check2 text-primary"></i>(Rive-Nord, Laval, Montréal, Rive-Sud)</li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+            <!-- Enterprise Plan -->
+            <div class="col">
+                <div class="card h-100 pricing-card shadow position-relative">
+                    <div class="card-body p-5">
+                      <h2 class="card-title text-uppercase mb-2">SERVICE EXTRA</h5>
+                        <h1 class="display-5 mb-4">200$</h1>
+                        <h6 class="subtitle mb-4">CONSULTATION À DOMICILE</h3>
+                        <ul class="list-unstyled feature-list">
+                          <li><i class="bi bi-check2 text-primary"></i>(Rive-Nord, Laval, Montréal, Rive-Sud)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<!--Event tickets end-->
+
+<!-- Portfolio-->
+ <section id="portfolio1">
+<div id="portfolio">
+  <div class="container-fluid p-0">
+      <div class="row g-0">
+          <div class="col-lg-4 col-sm-6">
+              <a class="portfolio-box" href="./images/0.png" title="Cuisine">
+                  <img class="img-fluid" src="./images/0.png" alt="Cuisine" />
+                  <div class="portfolio-box-caption">
+                      <div class="project-category text-white-50">Categorie</div>
+                      <div class="project-name">Cuisine</div>
+                  </div>
+              </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+              <a class="portfolio-box" href="./images/5.png" title="Salon">
+                  <img class="img-fluid" src="./images/5.png" alt="Salon" />
+                  <div class="portfolio-box-caption">
+                      <div class="project-category text-white-50">Categorie</div>
+                      <div class="project-name">Salon</div>
+                  </div>
+              </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+              <a class="portfolio-box" href="./images/28.png" title="Chambre à coucher">
+                  <img class="img-fluid" src="./images/28.png" alt="Chambre à coucher" />
+                  <div class="portfolio-box-caption">
+                      <div class="project-category text-white-50">Categorie</div>
+                      <div class="project-name">Chambre à coucher</div>
+                  </div>
+              </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+              <a class="portfolio-box" href="./images/27.png" title="Buanderie">
+                  <img class="img-fluid" src="./images/27.png" alt="Buanderie" />
+                  <div class="portfolio-box-caption">
+                      <div class="project-category text-white-50">Categorie</div>
+                      <div class="project-name">Buanderie</div>
+                  </div>
+              </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+              <a class="portfolio-box" href="./images/21.png" title="Salle de Bain">
+                  <img class="img-fluid" src="./images/21.png" alt="Salle de Bain" />
+                  <div class="portfolio-box-caption">
+                      <div class="project-category text-white-50">Categorie</div>
+                      <div class="project-name">Salle de Bain</div>
+                  </div>
+              </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+              <a class="portfolio-box" href="./images/c10.png" title="Commercial">
+                  <img class="img-fluid" src="./images/c10.png" alt="Commercial" />
+                  <div class="portfolio-box-caption p-3">
+                      <div class="project-category text-white-50">Categorie</div>
+                      <div class="project-name">Commercial</div>
+                  </div>
+              </a>
+          </div>
+      </div>
+  </div>
+</div>
+</section>
+<!--Portfolio end-->
+
+<!--Contact-->
+
+<section class="pt-4 pt-md-5" id="contact">
+	<div class="container">
+		<!-- Content and form START -->
+		<div class="row justify-content-center">
+			<div class="col-lg-8 shadow position-relative contact-box">
+				<!-- Title -->
+				<h1 class="contact-title">Vous avez des questions?</h1>
+
+				<!-- Contact form -->
+				<form class="mt-4">
+					<!-- Name -->
+					<div class="mb-4 form-control-bg-light">
+						<label class="form-label">Votre nom: *</label>
+						<input type="text" class="form-control">
+					</div>
+					<!-- Email -->
+					<div class="mb-4 form-control-bg-light">
+						<label class="form-label">Votre adresse courriel: *</label>
+						<input type="email" class="form-control">
+					</div>
+					<!-- Message -->
+					<div class="mb-4 form-control-bg-light">
+						<label class="form-label">Votre message: *</label>
+						<textarea class="form-control" rows="4"></textarea>
+					</div>
+					<!-- Button -->
+					<div><button class="btn gradient-custom text-white btn-lg w-100" type="button">Soumettre votre message</button></div>	
+				</form>
+			</div>
+
+			
+		</div>
+
+		
+	</div>
+</section>
+<!--Footer-->
+
+<footer class="pt-5 text-dark">
+  <div class="container container-footer">
+    
+      <!-- Footer 4 column -->
+
+
+      <div class="row">
+          <div class="col-lg-12 col-12">
+              <div class="row justify-content-center" id="ft-links">
+                <div class="col-lg-4 col-12">
+                  <div class="position-relative">
+                      
+                      <a class="navbar-brand" href="#">
+                        <img
+                          src="./images/dans_ton_decor_logo.png"
+                          alt="Dans ton Décor Logo"
+                          height="80"
+                        />
+                      </a>
+              
+                  </div>
+              </div>
+                  <div class="col-lg-2 col-12 mx-4">
+                      <div class="position-relative">
+                          <div class="mb-3 pb-2 d-flex border-dark-subtle border-bottom border-bottom-lg-0">
+                            <h4 class="text-white">Site</h4>
+                              <a
+                                  class="d-block d-lg-none stretched-link text-body"
+                                  data-bs-toggle="collapse"
+                                  href="#collapseLanding"
+                                  role="button"
+                                  aria-expanded="false"
+                                  aria-controls="collapseLanding">
+                                  <i class="bi bi-chevron-down"></i>
+                              </a>
+                          </div>
+                          <div class="collapse d-lg-block" id="collapseLanding" data-bs-parent="#ft-links">
+                              <ul class="list-unstyled mb-0 py-3 py-lg-0">
+                                  <li class="mb-2">
+                                      <a href="#a_propos" class="text-decoration-none text-body-secondary">À Propos</a>
+                                  </li>
+                                  <li class="mb-2">
+                                      <a href="#service" class="text-decoration-none text-body-secondary">Services</a>
+                                  </li>
+                                  <li class="mb-2">
+                                      <a href="#portfolio1" class="text-decoration-none text-body-secondary">Portfolio</a>
+                                  </li>
+                                  <li class="mb-2">
+                                      <a href="#contact" class="text-decoration-none text-body-secondary">Contact</a>
+                                  </li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-2 col-12 mx-4">
+                      <div>
+                          <div class="mb-3 pb-2 d-flex justify-content-between border-dark-subtle border-bottom border-bottom-lg-0 position-relative">
+                              <h4 class="text-white">Forfaits</h4>
+                              <a
+                                  class="d-block d-lg-none stretched-link text-body"
+                                  data-bs-toggle="collapse"
+                                  href="#collapseAccounts"
+                                  role="button"
+                                  aria-expanded="false"
+                                  aria-controls="collapseAccounts">
+                                  <i class="bi bi-chevron-down"></i>
+                              </a>
+                          </div>
+                          <div class="collapse d-lg-block" id="collapseAccounts" data-bs-parent="#ft-links">
+                              <ul class="list-unstyled mb-0 py-3 py-lg-0">
+                                  <li class="mb-2">
+                                      <a href="#forfait" class="text-decoration-none text-body-secondary">Forfait Déco</a>
+                                  </li>
+                                  <li class="mb-2">
+                                      <a href="#forfait" class="text-decoration-none text-body-secondary">Forfait Réno</a>
+                                  </li>
+                                  <li class="mb-2">
+                                      <a href="#forfait" class="text-decoration-none text-body-secondary">Service Extra</a>
+                                  </li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <div class="col-lg-2 col-12 mx-4">
+                      <div class="mb-3 pb-2 d-flex justify-content-between border-dark-subtle border-bottom border-bottom-lg-0 position-relative">
+                          <h4 class="text-white">Regions</h4>
+                          <a
+                              class="d-block d-lg-none stretched-link text-body"
+                              data-bs-toggle="collapse"
+                              href="#collapseLocations"
+                              role="button"
+                              aria-expanded="false"
+                              aria-controls="collapseLocations">
+                              <i class="bi bi-chevron-down"></i>
+                          </a>
+                      </div>
+                      <div class="collapse d-lg-block" id="collapseLocations" data-bs-parent="#ft-links">
+                          <ul class="list-unstyled mb-0 py-3 py-lg-0">
+                              <li class="mb-2">Laval</li>
+                              <li class="mb-2">Montréal</li>
+                              <li class="mb-2">Rive-Nord</li>
+                              <li class="mb-2">Rive-Sud</li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+      </div>
+  </div>
+  <div class="container mt-4 pt-lg-7 pb-4 mb-4">
+      <div class="row align-items-center">
+          <div class="col-md-3">
+              <a class="mb-4 mb-lg-0 d-block" href="../index.html"><img src="../assets/images/logo/logo-white.svg" alt="" /></a>
+          </div>
+          <div class="col-md-9 col-lg-6">
+              <div class="small mb-3 mb-lg-0 text-lg-center">
+                  Copyright © 2025
+  
+                  <span class="text-dark">Dans Ton Décor.</span>
+              </div>
+          </div>
+          <div class="col-md-2">
+              <div class="text-md-end">
+                  <a href="#!" class="text-reset btn btn-instagram btn-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                          <path
+                              d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                      </svg>
+                  </a>
+                  <a href="#!" class="text-reset btn btn-facebook btn-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                          <path
+                              d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                      </svg>
+                  </a>
+                  <a href="#!" class="text-reset btn btn-twitter btn-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                          <path
+                              d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                      </svg>
+                  </a>
+              </div>
+          </div>
+      </div>
+  </div>
+  </footer>
+                                                  
+
+
+    <!-- Bootstrap 5.0 JS Bundle (includes Popper) -->
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

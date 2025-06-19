@@ -1,0 +1,268 @@
+body {
+    margin-bottom: 0px;
+}
+
+nav {
+    font-family: "the-seasons", 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+h2 {
+    color: #2C3639;
+}
+
+.navbar {
+    height: 150px;
+}
+
+.top-bar {
+    font-family: "the-seasons", 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 24px;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 75px;
+    background-color: #A27B5C;
+}
+
+.custom-collapse {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* White with 80% opacity */
+    text-align: center;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        justify-content: center;
+    }
+}
+
+.container-fluid {
+    max-width: 80%;
+    margin: 0 auto;
+    color: #343434;
+}
+
+.no-radius {
+    border-radius: 0 !important;
+}
+
+.image-container img {
+    height: 500px;
+    display: block;
+    object-fit: cover;
+}
+
+@media (max-width: 767.98px) {
+    .image-crop {
+        height: auto;
+    }
+}
+
+.pourquoi   {
+    font-family: "the-seasons", 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    background-color: #DCD7C9;
+    margin: 0 auto;
+}
+
+.pourquoi h2 {
+    margin-top: 50px;
+}
+
+.etapes {
+    font-family: "the-seasons", 'Times New Roman', Times, serif;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+        color: #343434;
+}
+
+.feature  {
+    text-align: center;
+}
+
+.etapes-text {
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+.pieces {
+    font-family: "the-seasons", 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    background-color: #DCD7C9;
+    margin: 0 auto;
+    color: #343434;
+}
+
+.piece-title {
+    padding-top: 10px;
+}
+
+/* Pricing */
+
+.forfait {
+    font-family: "the-seasons", 'Times New Roman', Times, serif;
+        letter-spacing: 0.1rem;
+        margin: 0 auto;
+        color: #A27B5C;
+        padding-bottom: 20px;
+}
+
+.forfait-title {
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+.pricing-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    border-radius: 15px;
+}
+
+.pricing-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.feature-list li {
+    color: #3f4e4f;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+.popular-badge {
+    position: absolute;
+    top: -12px;
+    right: 20px;
+    border-radius: 20px;
+}
+
+.gradient-custom {
+    background: linear-gradient(135deg, #a27b5c 0%, #7b5f48 100%);
+}
+
+.subtitle {
+    text-transform: uppercase;
+    color: #7b5f48;
+}
+
+.card-title {
+    color: #2c3639;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+button.btn {
+    margin-top: auto;
+ }
+
+ #portfolio .container-fluid,
+ #portfolio .container-sm,
+ #portfolio .container-md,
+ #portfolio .container-lg,
+ #portfolio .container-xl,
+ #portfolio .container-xxl {
+     max-width: 1920px;
+ }
+
+ #portfolio .container-fluid .portfolio-box,
+ #portfolio .container-sm .portfolio-box,
+ #portfolio .container-md .portfolio-box,
+ #portfolio .container-lg .portfolio-box,
+ #portfolio .container-xl .portfolio-box,
+ #portfolio .container-xxl .portfolio-box {
+     position: relative;
+     display: block;
+ }
+
+ #portfolio .container-fluid .portfolio-box .portfolio-box-caption,
+ #portfolio .container-sm .portfolio-box .portfolio-box-caption,
+ #portfolio .container-md .portfolio-box .portfolio-box-caption,
+ #portfolio .container-lg .portfolio-box .portfolio-box-caption,
+ #portfolio .container-xl .portfolio-box .portfolio-box-caption,
+ #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     bottom: 0;
+     text-align: center;
+     opacity: 0;
+     color: #fff;
+     background: #A27B5Cd2;
+     transition: opacity 0.25s ease;
+     text-align: center;
+ }
+
+ #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category,
+ #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-category,
+ #portfolio .container-md .portfolio-box .portfolio-box-caption .project-category,
+ #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-category,
+ #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-category,
+ #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-category {
+    font-family: "the-seasons", 'Times New Roman', Times, serif;
+     font-size: 1.00rem;
+     font-weight: 600;
+     text-transform: uppercase;
+ }
+
+ #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name,
+ #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-name,
+ #portfolio .container-md .portfolio-box .portfolio-box-caption .project-name,
+ #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-name,
+ #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-name,
+ #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-name {
+     font-size: 1.2rem;
+ }
+
+ #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption,
+ #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption,
+ #portfolio .container-md .portfolio-box:hover .portfolio-box-caption,
+ #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption,
+ #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption,
+ #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
+     opacity: 1; }
+   
+
+.project-name {
+    font-family: "the-seasons", 'Times New Roman', Times, serif;
+    font-size: 1.00rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.contact-box{
+    padding: 50px;
+}
+
+#contact {
+    font-family: "the-seasons", 'Times New Roman', Times, serif;
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+
+.contact-title {
+    color: #A27B5C;
+}
+
+footer {
+    font-family: "the-seasons", 'Times New Roman', Times, serif;
+    background-color: #DCD7C9;
+    padding-bottom: 10px;
+}
+
+#three-images {
+    margin-bottom: 100px;
+}
