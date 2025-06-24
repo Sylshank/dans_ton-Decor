@@ -266,3 +266,42 @@ footer {
 #three-images {
     margin-bottom: 100px;
 }
+
+/* QUESTIONNAIRE PAGE */
+
+.questionnaire {
+    font-family: "the-seasons", 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin: 0 auto;
+}
+
+.questionnaire h2 {
+    margin-top: 50px;
+}
+
+.question-box {
+    padding: 50px;
+    background-color: #DCD7C9;
+}
+
+#question {
+    font-family: "the-seasons", 'Times New Roman', Times, serif;
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+
+.question-title {
+    color: #A27B5C;
+    text-transform: uppercase;
+}
+
+.line   {
+    border-top: 2px solid;
+}
+
+label  {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
