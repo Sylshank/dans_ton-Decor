@@ -418,24 +418,24 @@
 				<h1 class="contact-title">Vous avez des questions?</h1>
 
 				<!-- Contact form -->
-				<form class="mt-4">
+				<form action="https://formspree.io/f/mdkzpnjr" method="POST">
 					<!-- Name -->
 					<div class="mb-4 form-control-bg-light">
 						<label class="form-label">Votre nom: *</label>
-						<input type="text" class="form-control">
+						<input name="Contact_nom" type="text" class="form-control" required>
 					</div>
 					<!-- Email -->
 					<div class="mb-4 form-control-bg-light">
 						<label class="form-label">Votre adresse courriel: *</label>
-						<input type="email" class="form-control">
+						<input name="Contact_courriel" type="email" class="form-control" required>
 					</div>
 					<!-- Message -->
 					<div class="mb-4 form-control-bg-light">
 						<label class="form-label">Votre message: *</label>
-						<textarea class="form-control" rows="4"></textarea>
+						<textarea name="Contact_message" class="form-control" rows="4" name="Contact_courriel"></textarea>
 					</div>
 					<!-- Button -->
-					<div><button class="btn gradient-custom text-white btn-lg w-100" type="button">Soumettre votre message</button></div>	
+					<div><button class="btn gradient-custom text-white btn-lg w-100" type="submit">Soumettre votre message</button></div>	
 				</form>
 			</div>
 
